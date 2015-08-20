@@ -1,0 +1,460 @@
+body {
+	background: #28313A url(/img/top_bkgnd.jpg) repeat-x left top;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, sans-serif;
+	color: #111;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #28313A;
+	margin: 0;
+}
+
+h1 {
+	font-size: 28px;
+	letter-spacing: -1px;
+	color: #036;
+}
+
+h2 {
+	font-size: 20px;
+	color: #036;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+
+a {
+	color: #1B75A9;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #1B75A9;
+}
+
+a:visited {
+	color: #1B75A9;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+/* Form */
+
+form {
+	margin-top: 30px;
+}
+
+legend, fieldset {
+	margin: 0;
+	border: none;
+	margin-bottom: 10px;
+	margin-right: 30px;
+}
+
+label {
+	font-weight: bold;
+	display: inline;
+	float: left;
+	padding-top: 6px;
+}
+
+label.required::after {
+	content: "*";
+	color:red;
+}
+
+input, textarea, select {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #333;
+	width: 175px;
+	display: inline;
+	float: right;
+}
+select { width: 180px; }
+
+input[type=submit], input[type=button], input[type=cancel] {
+	width: auto;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+input[type=submit].default, input[type=button].default, input[type=cancel].default {
+	font-weight: bold;
+}
+
+input[type=submit].nofloat, input[type=button].nofloat, input[type=cancel].nofloat {
+	float: none;
+}
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 880px;
+	margin: 17px auto 0 auto;
+	height: 55px;
+	border: 10px #FFF solid;
+}
+
+/* Logo */
+
+#logo {
+	width: 880px;
+	height: 130px;
+	margin: 0 auto;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #28313A;
+}
+
+#logo a:hover {
+	text-decoration: underline;
+}
+
+#logo h1, #logo h2, #logo h3 {
+	padding-top: 35px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #28313A;
+}
+
+#logo h1 { 
+	font-size:40px;
+}
+
+#logo h2 {
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+#logo h3 {
+	padding-top: 25px;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 880px;
+	height: 60px;
+	background: url(/img/header_button_top.jpg) repeat-x left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 23px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	text-align: center;
+}
+
+#menu a {
+	display: block;
+	padding: 0 50px;
+	background: url(/img/header_button_bottom.jpg) no-repeat right 50%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+}
+
+#menu a:hover, #menu .current_menu_item a, .menu-submenu ul li.current_menu_item a, .menu-submenu ul li a:hover { 
+	color: #9CF;
+}
+
+.menu-submenu {
+	display: none;
+	z-index: 5;
+	position:absolute;
+}
+
+.menu-submenu ul {
+	width:282px;
+	margin:59px 0 0 305px;
+	background: url(/img/header_button_top.jpg) repeat;
+}
+
+.menu-submenu ul li {
+	padding: 8px 0 8px 10px;
+	background: url(/img/header_button_top.jpg) repeat-x;
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+	margin:0
+}
+
+.menu-submenu ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* Submenu */
+
+#submenu {
+	float: left;
+	width: 880px;
+	height: 30px;
+	background: url(/img/header_button_top.jpg) repeat-x left top;
+	margin-bottom: 20px;
+}
+
+#submenu ul {
+	margin: 0;
+	padding: 9px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#submenu li {
+	float: left;
+	text-align: center;
+	width: 150px;
+}
+
+#submenu a {
+	display: block;
+	padding: 0 25px;
+	background: url(/img/header_button_bottom.jpg) no-repeat right;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #FFF;
+	text-align: center;
+}
+
+#submenu a:hover, #submenu .current_page_item_sub a { 
+	color: #9CF;
+}
+
+/* Page */
+
+#page {
+	width: 880px;
+	margin: 0 auto;
+	background: #FFF;
+	border: 10px #FFF solid;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 620px;
+	border-right: 1px dashed #AAA;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+
+#content-nosidebar {
+	width: 900px;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+}
+
+/* Post */
+
+.post {
+	padding: 0px 30px 0px 10px;
+	margin-bottom: 5px;
+}
+
+.post .title {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+
+.post .entry {
+}
+
+.post .left-entry {
+	float: left;
+	width: 430px;
+	border-right: dashed #AAA 1px;
+	margin-right: 25px;
+	height: auto;
+}
+
+.post .right-entry {
+	float: right;
+	width: 400px;
+}
+
+.clear {
+    clear: both;
+}
+
+.third {
+	width: 285px;
+}
+
+.center {
+	text-align:center
+}
+
+.margin-top {
+	margin-top: 10px
+}
+
+.post .meta {
+	padding: 15px 15px 30px 0px;
+	font-size: 10px;
+}
+
+.post .meta p {
+	margin: 0;
+	padding-top: 15px;
+	line-height: normal;
+	color: #28313A; 
+}
+
+.post .meta .byline {
+	float: left;
+}
+
+.post .meta .links {
+	float: right;
+}
+
+.post .meta .more {
+	padding: 0 20px 0 18px;
+}
+
+.post .meta .comments {
+	padding-left: 22px;
+}
+
+.post .meta b {
+	display: none;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	color: #777
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+#sidebar ul li ul {
+	border-bottom: 1px dashed #AAA;
+}
+
+#sidebar li {
+	margin-bottom: 15px;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	margin: 0;
+}
+
+#sidebar h2 {
+	width: 250px;
+	padding: 0 0 0 0px;
+	margin-bottom: 10px;
+	background: url(/img/img07.jpg) no-repeat left top;
+	font-size: 20px;
+	color: #036; 
+}
+
+/* Message */
+
+#messagebox {
+	width: 868px;
+	background-color: #EEE;
+	color: #000;
+	padding: 4px;
+	border: 1px dashed #AAA;
+	margin: 17px 0 30px 0;
+}
+
+#messagebox ul {
+    margin: 0 0 15px 15px;
+}
+
+.error {
+	color: #C00
+}
+
+.warning {
+	color: #F60
+}
+
+.success {
+	color: #360
+}
+
+/* Footer */
+
+#footer-wrap {
+}
+
+#footer {
+	width: 880px;
+	margin: 0 auto;
+	background: #DDD;
+	border: 10px #FFF solid;
+}
+
+html>body #footer {
+	height: 23px;
+}
+
+#footer p {
+	font: 9px Verdana, sans-serif;
+}
+
+#legal {
+	clear: both;
+	padding-top: 5px;
+	text-align: center;
+	color: #777;
+}
+
+#legal a {
+	font-weight: normal;
+	color: #AAA;
+}

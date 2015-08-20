@@ -1,0 +1,389 @@
+/* General */
+
+body
+{
+     background: url('/img/bkgnd.gif') repeat-x
+}
+
+h1
+{
+     font-size: 18px
+    ;font-weight: bold
+}
+
+h2
+{
+     font-size: 14px
+    ;font-weight: bold
+}
+
+a:active,
+a:visited,
+a:link
+{
+    color: #6495ED  
+}
+a:hover
+{
+    color: #555
+}
+
+body, th, td, div, span
+{
+     font-family: Verdana
+    ;font-size: 10px
+}
+
+.icon
+{
+     position: relative
+    ;top: 4px
+}
+
+/* Header */
+
+div#header-data-recovery
+{
+    text-align: center
+    ;padding: 2px 0 0 300px
+    ;font-size: 14px
+    ;font-weight: bold
+    ;font-family: Helvetica
+}
+
+div#header-data-recovery a
+{
+     color: red
+    ;text-decoration: none
+}
+
+div#header-data-recovery img
+{
+     position: relative
+    ;top: 8px
+}
+/* Container */
+
+div#container-fr,
+div#container-en,
+div#container-pale
+{
+     width: 1024px
+    ;min-height: 768px
+    ;background: url('/img/bkgnd_top_left_pale.jpg') no-repeat
+}
+div#container-pale-en
+{
+     background: url('/img/bkgnd_top_left_pale_en.jpg') no-repeat
+}
+
+div#container-pale-fr
+{
+     background: url('/img/bkgnd_top_left_pale_fr.jpg') no-repeat
+}
+
+div#container-content
+{
+     position: relative
+    ;top: 110px
+}
+div#container-content-container
+{
+     padding: 10px 0 0 100px
+}
+
+/* Home - Accueil */
+
+div#carousel
+{
+     position: relative
+    ;left: 357px 
+    ;width: 615px
+    ;height: 300px
+    ;text-align: right
+    ;border: 1px #AAA solid
+}
+
+.carousel-changer
+{
+     margin: 273px 2px 0 0
+}
+
+div#info-container
+{
+     margin: 35px 0 0 200px
+    ;cursor: hand
+}
+
+span#info-container-left,
+span#info-container-right
+{
+     float:left
+}
+
+span#info-container-left
+{
+      width: 295px
+     ;text-align: center
+     ;margin-top: 65px
+}
+
+span#info-container-right
+{
+      width: 600px
+     ;margin: 25px 0 0 62px
+}
+
+div#box-container
+{
+     margin: 32px 0 0 35px
+}
+
+div.info-box
+{
+     display: inline
+    ;float: left
+    ;width: 213px
+    ;height: 293px
+    ;margin: 0 30px 0 0
+}
+div.repairs-en
+{
+     background: url('/img/boxes/repairs-en.jpg') no-repeat
+}
+div.repairs-fr
+{
+     background: url('/img/boxes/repairs-fr.jpg') no-repeat
+}
+div.assistance-en
+{
+     background: url('/img/boxes/assistance-en.jpg') no-repeat
+}
+div.assistance-fr
+{
+     background: url('/img/boxes/assistance-fr.jpg') no-repeat
+}
+div.iphone-en
+{
+     background: url('/img/boxes/iphone-en.jpg') no-repeat
+}
+div.iphone-fr
+{
+     background: url('/img/boxes/iphone-fr.jpg') no-repeat
+}
+div.training-en
+{
+     background: url('/img/boxes/training-en.jpg') no-repeat
+}
+div.training-fr
+{
+     background: url('/img/boxes/training-fr.jpg') no-repeat
+}
+div.upgrades-en
+{
+     background: url('/img/boxes/upgrades-en.jpg') no-repeat
+}
+div.upgrades-fr
+{
+     background: url('/img/boxes/upgrades-fr.jpg') no-repeat
+}
+
+/*  Top Right Options - Login, Language */
+
+span#options
+{
+     float: right
+}
+
+span#options a
+{
+    margin: 0 10px 0 10px
+}
+
+span#options ul li
+{
+     float:left
+    ;text-align: center
+    ;padding: 5px 0 0 0
+    ;font-weight: bold
+}
+
+span#options ul li
+{
+     height:15px
+    ;background: url('/img/menu.gif') repeat-x
+}
+
+/* Navigation */
+
+span#navigation
+{
+     position: absolute
+    ;top: 45px
+    ;left: 100px
+}
+
+span#navigation ul li
+{
+     height:33px
+    ;float:left
+    ;text-align: center
+    ;padding: 11px 0 0 0
+    ;font-size: 12px
+    ;font-weight: bold
+    ;font-family: Helvetica
+}
+
+span#navigation ul li,
+span#navigation ul li.item_blank
+{
+     width:125px
+    ;background: url('/img/menu.gif') repeat-x
+}
+
+span#navigation ul li a
+{
+      color: #000
+     ;text-decoration: none
+     ;letter-spacing: 1px
+}
+
+span#navigation ul li.item_left
+{
+     width:5px
+    ;background: url('/img/menu_left.gif') repeat-x
+}
+
+span#navigation ul li.item_left_hover
+{
+     width:5px
+    ;background: url('/img/menu_left_hover.gif') repeat-x
+}
+
+span#navigation ul li.item:hover,
+span#navigation ul li.item_hover
+{
+     background: url('/img/menu_hover.gif') repeat-x
+}
+
+span#navigation ul li.item_separator,
+span#options ul li.item_separator
+{
+     width:2px
+    ;background: url('/img/menu_separator.gif') repeat-x
+}
+
+span#navigation ul li.item_right
+{
+     width:5px
+    ;background: url('/img/menu_right.gif') repeat-x
+}
+
+span#navigation ul li.item_right_hover
+{
+     width:5px
+    ;background: url('/img/menu_right_hover.gif') repeat-x
+}
+
+/* Message */
+
+div#message {
+    margin: 25px 0 25px 35px
+}
+
+div#message li {
+    margin: 5px 0 0 0
+    ;text-align: left
+    ;font-size: 11px
+}
+
+li.error {
+    list-style-image: url('/img/bullet_error.gif');
+    color: #C00;
+}
+
+li.warning {
+    list-style-image: url('/img/bullet_warning.gif');
+    color: #F90;
+}
+
+li.success {
+    list-style-image: url('/img/bullet_success.gif');
+    color: #060;
+}
+
+/* Forms */
+
+input,
+textarea,
+select,
+button
+{
+     font-family: Verdana
+    ;font-size: 11px
+    ;padding: 0px
+}
+
+input[type='text'],
+input[type='password'],
+textarea
+{
+     min-width: 225px
+}
+
+select
+{
+    min-width: 230px
+}
+
+form {
+    width: 97%
+}
+
+form fieldset
+{
+  border-color: #555;
+  border-width: 1px 0 0 0;
+  border-style: dotted;
+  padding: 10px 0 0 0;
+  margin: 25px 0 0 0;
+}
+
+form fieldset legend {
+     font-size: 13px
+    ;font-weight:bold
+    ;color: #039
+    ;padding: 5px 10px 10px 0
+}
+
+div.field-container
+{
+     margin: 10px 0 10px 10px
+}
+
+label {
+     display: block
+    ;float: left
+    ;width: 125px
+    ;padding: 0 0 0 10px
+    ;margin: 6px 0 0 0
+    ;font-size:11px
+    ;font-weight: bold
+}
+
+label.required {
+     background: url('/img/bullet_error.gif') no-repeat left center
+}
+
+div.field-container-button
+{
+    margin: 25px 0 0 145px
+}
+
+/* Footer */
+
+#footer
+{
+     text-align: center
+    ;padding-top: 325px
+}
